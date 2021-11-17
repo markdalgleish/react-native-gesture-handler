@@ -6,10 +6,10 @@ title: Running Example App
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import GifGallery from '@site/components/GifGallery'
 
-Example app code is located under [`Example/`](https://github.com/software-mansion/react-native-gesture-handler/tree/master/examples/Example) folder in the repo.
+Example app code is located under [`example`](https://github.com/software-mansion/react-native-gesture-handler/tree/master/example) folder in the repo.
 It showcases the majority of the Gesture Handler library features.
 The app consist of the list of single screen examples presenting the capabilities of the library.
-Each example is located under a separate folder under [`Example/`](https://github.com/software-mansion/react-native-gesture-handler/tree/master/examples/Example).
+Each example is located under a separate folder under [`src/`](https://github.com/software-mansion/react-native-gesture-handler/tree/master/example/src).
 
 <GifGallery>
     <img src={useBaseUrl("gifs/sampleapp.gif")} width="180" height="320" />
@@ -42,10 +42,10 @@ Install dependencies of library with the following command:
 yarn
 ```
 
-Then go to the `Example` folder:
+Then go to the `example` folder:
 
 ```bash
-cd Example
+cd example
 ```
 
 Install dependencies of example with the following command:
